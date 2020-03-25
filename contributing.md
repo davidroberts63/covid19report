@@ -4,7 +4,7 @@ First, please, distance yourself from others. Read over the OSDH's [fact or fict
 
 Next, you can help by checking the [executive order reports](https://coronavirus.health.ok.gov/executive-order-reports) in the afternoon. If you want to update the data here, I highly welcome it. Please do it as so:
 1. Fork this repository.
-1. Edit the [ok.json]() file by adding another JSON object with the updated numbers to that existing file. Use the sample below as a copy and paste to then update the numbers:
+1. Edit the [ok.json](ok.json) file by adding another JSON object with the updated numbers to that existing file. Use the sample below as a copy and paste to then update the numbers:
 ```
   {
     "date": "YYYY-MM-DD",

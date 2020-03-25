@@ -11,13 +11,13 @@ Okay good. In that case, since you know that and consider this data for viewing 
 
 This is the daily data from the Oklahoma State Department of Health ("OSDH") concerning the 'critical data'; as stated in Governor J. Kevin Stitt's executive order [2020-07 (fourth ammended)](https://www.sos.ok.gov/documents/executive/1919.pdf) on the 24th of March 2020.
 
-The OSDH publishes the [executive order reports](https://coronavirus.health.ok.gov/executive-order-reports) in PDF documents. This repository is a **manuall** entry of that data into JSON format for machine consumption.
+The OSDH publishes the [executive order reports](https://coronavirus.health.ok.gov/executive-order-reports) in PDF documents. This repository is a **manual** entry of that data into JSON format for machine consumption.
 
 ## Where is the data?
 
-The data is in the [ok.json](ok.json) data file inside this repository. I named it that with in the extreme low chance that other state's equivalent information could be incorporated into this repository. But I doubt that will happen.
+The data is in the [ok.json](ok.json) data file inside this repository. I named it that in the extreme low chance that other state's equivalent information could be incorporated into this repository. But I doubt that will happen.
 
-The data is supposed to be submitted to OSDH by noon every day. Then OSDH is then to aggregate that data and provide to to the Governor by 3:00 p.m.
+The data is supposed to be submitted to OSDH by noon every day. Then OSDH is then to aggregate that data and provide it to the Governor by 3:00 p.m.
 
 The data here will get updated sometime after that. Depending on when OSDH publishes it online and when I, or other community members notice it and update the data here.
 
@@ -25,9 +25,11 @@ The data here will get updated sometime after that. Depending on when OSDH publi
 
 The data is in a JSON array of objects. Each property corresponds to an equivalent line item in the OSDH [executive order reports](https://coronavirus.health.ok.gov/executive-order-reports).
 
-Along with the numbers in the EO report are the following additional data:
+There is some additional data with the numbers in the EO:
 * Date of the report
 * URL to the report the data came from
+
+## What are the reports
 
 #### EO COVID-19 Report
 
