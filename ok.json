@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2020-03-24",
+    "osdhReportUrl": "https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_3-24-20.pdf",
+    "hospitalReportingCompliance": 0.92,
+    "icuBeds": 343,
+    "medicalSurgeryBeds": 2017,
+    "operatingRoomBeds": 431,
+    "pediatricBeds": 282,
+    "picuBeds": 50,
+    "venilators": 725,
+    "negativeFlowRooms": 383,
+    "overallHospitalOccupancyStatus": 5138,
+
+    "facilityFaceShieldsAvailable": 17984,
+    "facility95MasksAvailable": 93378,
+    "facilitySurgicalMasksAvailable": 274744,
+    "facilityGownsAvailable": 109079,
+    "facilityGlovesAvailable": 1515430,
+
+    "osdhFaceShieldsAvailable": 102616,
+    "osdh95MasksAvailable": 81080,
+    "osdhSurgicalMasksAvailable": 143000,
+    "osdhGownsAvailable": 75492,
+    "osdhGlovesAvailable": 5530,
+
+    "positivePatients": 106,
+    "personsUnderInvestigationInHospital": 399,
+    "personsInSelfQuarantine": 492,
+    "covid19TestingSuppliesAvailability": 15410
+  }
+]
