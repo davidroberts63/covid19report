@@ -1,0 +1,9 @@
+{
+  "name": "covid19inventory",
+  "version": "1.0.0",
+  "description": "Coummunity supported data file of Oklahoma COVID 19 report per EO 2020-07",
+  "scripts": {
+    "test": "node test-data.js"
+  },
+  "license": "Apache-2.0"
+}
