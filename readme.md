@@ -15,6 +15,8 @@ The OSDH publishes the [executive order reports](https://coronavirus.health.ok.g
 
 ## Where is the data?
 
+[Raw data link](https://raw.githubusercontent.com/davidroberts63/covid19report/master/ok.json)
+
 The data is in the [ok.json](ok.json) data file inside this repository. I named it that in the extreme low chance that other state's equivalent information could be incorporated into this repository. But I doubt that will happen.
 
 The data is supposed to be submitted to OSDH by noon every day. Then OSDH is then to aggregate that data and provide it to the Governor by 3:00 p.m.
