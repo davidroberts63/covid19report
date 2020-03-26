@@ -41,23 +41,14 @@ data.forEach((item, index) => {
     exitCode = 2;
   }
 
-  // Verifying URL is reachable.
-  var https = require('https');
-  var result = https.get(item['osdhReportUrl'])
-  if(!result.hasOwnProperty('res') || result.res == null || !result.res.hasOwnProperty('statusCode') || result.res.statusCode != 200) {
-    console.warn(`Item at index ${index} has an invalid report url of '${item['osdhReportUrl']}'`)
-    console.log(result);
-    exitCode = 0; // Ignoring this failure for now due to it working locally outside of this script.
-  }
-
   // Checking all the numbers.
-  if(!Number.isFinite(item['hospitalReportingCompliance'])) {
+  if(!Number.isFinite(item['hospitalReportingCompliance']) && item['hospitalReportingCompliance'] !== null) {
     console.error(`Item at index ${index} has an invalid reporting compliance value of '${item['hospitalReportingCompliance']}'`)
     exitCode = 2;
   }
 
   expectedNumberProperties.forEach(propertyName => {
-    if(!Number.isInteger(item[propertyName])) {
+    if(!Number.isInteger(item[propertyName]) && item[propertyName] !== null) {
       console.error(`Item at index ${index} has an invalid ${propertyName} value of '${item[propertyName]}'`)
       exitCode = 2;
     }
