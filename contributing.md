@@ -15,7 +15,7 @@ Next, you can help by checking the [executive order reports](https://coronavirus
     "operatingRoomBeds": 0,
     "pediatricBeds": 0,
     "picuBeds": 0,
-    "venilators": 0,
+    "ventilators": 0,
     "negativeFlowRooms": 0,
     "overallHospitalOccupancyStatus": 0,
 
