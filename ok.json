@@ -64,7 +64,7 @@
     "positivePatients": 164,
     "positivePatientsInICU": 35,
     "personsUnderInvestigationInHospital": 326,
-    "personsUnderInvestigationInHospitalInICU": 93
+    "personsUnderInvestigationInHospitalInICU": 93,
     "personsInSelfQuarantine": 373,
     "covid19TestingSuppliesAvailability": 11369
   }
