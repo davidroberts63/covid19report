@@ -28,5 +28,44 @@
     "personsUnderInvestigationInHospital": 399,
     "personsInSelfQuarantine": 492,
     "covid19TestingSuppliesAvailability": 15410
+  },
+{
+    "date": "2020-03-25",
+    "osdhReportUrl": "https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/3.25_covid-19_report_correct.pdf",
+    "hospitalReportingCompliance": 0.88,
+    "icuBeds": 290,
+    "icuBedsTotal": 794,
+    "medicalSurgeryBeds": 2208,
+    "medicalSurgeryBedsTotal": 4502,
+    "operatingRoomBeds": 435,
+    "operatingRoomBedsTotal": 433,
+    "pediatricBeds": 152,
+    "pediatricBedsTotal": 293
+    "picuBeds": 34,
+    "picuBedsTotal": 146,
+    "venilators": 682,
+    "negativeFlowRooms": 342,
+    "negativeFlowRoomsTotal": 492,
+    "overallHospitalOccupancyStatus": 4478,
+
+    "averageDaysOfPPE": 9.7,
+    "facilityFaceShieldsAvailable": null,
+    "facility95MasksAvailable": null,
+    "facilitySurgicalMasksAvailable": null,
+    "facilityGownsAvailable": null,
+    "facilityGlovesAvailable": null,
+
+    "osdhFaceShieldsAvailable": 111904,
+    "osdh95MasksAvailable": 81080,
+    "osdhSurgicalMasksAvailable": 420000,
+    "osdhGownsAvailable": 75492,
+    "osdhGlovesAvailable": 5590,
+
+    "positivePatients": 164,
+    "positivePatientsInICU": 35,
+    "personsUnderInvestigationInHospital": 326,
+    "personsUnderInvestigationInHospitalInICU": 93
+    "personsInSelfQuarantine": 373,
+    "covid19TestingSuppliesAvailability": 11369
   }
 ]
